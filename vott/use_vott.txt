@@ -1,0 +1,2 @@
+sudo snap install vott-2.2.0-linux.snap --dangerous
+vott
