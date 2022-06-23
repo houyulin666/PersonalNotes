@@ -1,2 +1,6 @@
+下载vott安装包
+https://github.com/Microsoft/VoTT/releases
+ubuntu下载
 sudo snap install vott-2.2.0-linux.snap --dangerous
+使用vott
 vott
