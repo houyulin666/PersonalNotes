@@ -7,6 +7,32 @@ git init
 git add 
 #暂存区添加到仓库
 git commit
+
+# 我这里的别名是origin
+# git remote set-url 你的remote别名 https://你的token@你的仓库地址
+git remote set-url origin https://你的token@github.com/sober-orange/study.git
+# 提交代码
+git push -u origin master
+
+如果未设置过别名***
+# git remote add 别名 https://你的token@你的仓库地址
+git remote add origin https://你的token@github.com/sober-orange/study.git
+# 提交代码
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #查看是否有文件未提交(文件状态)
 git status
 #查看修改内容
