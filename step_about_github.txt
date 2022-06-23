@@ -1,0 +1,33 @@
+https://zhuanlan.zhihu.com/p/118562819
+
+git config --global user.name "houyulin666"
+git config --global user.email "1793811309@qq.com"
+git init
+#工作区添加到暂存区
+git add 
+#暂存区添加到仓库
+git commit
+#查看是否有文件未提交(文件状态)
+git status
+#查看修改内容
+git diff <filename>
+#查看修改记录
+git log
+#美化修改记录
+git log --pretty=oneline
+#回退版本
+git reset --hard HEAD^
+或者
+git reset --hard HEAD~100
+
+#撤销回退
+1.获取版本号
+git reflog
+2.重置版本
+git reset --hard <版本号>
+
+#撤销修改
+git checkout --readme.txt (撤销工作区的修改，未提交)
+
+
+#关于git分支
