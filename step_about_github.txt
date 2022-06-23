@@ -19,18 +19,16 @@ git push -u origin master
 git remote add origin https://你的token@github.com/sober-orange/study.git
 # 提交代码
 git push -u origin master
-
-
-
-
-
-
-
-
-
-
-
-
+*****************
+查看哪个文件超过了100M
+有可能错误直接爆出是哪个文件，也有可能只是爆出了该文件的代号。如果是代号需要先使用该语句查询具体是哪个文件
+$ git rev-list --objects --all | grep xxx
+从缓存中删除
+$ git filter-branch --tree-filter 'rm -f xxx' --tag-name-filter cat -- --all
+这里的XXX替换成报错文件的具体路径（例如我这里的xxx是target/travel-0.0.1-SNAPSHOT.jar）
+再次进行push操作
+git push origin master
+*****************
 
 
 #查看是否有文件未提交(文件状态)
