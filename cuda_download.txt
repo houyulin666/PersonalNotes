@@ -1,0 +1,2 @@
+nvidia驱动：https://www.cnblogs.com/zhaoyingjie/p/15380694.html
+cuda和cudnn下载安装：https://blog.csdn.net/qq_43644413/article/details/124899366
